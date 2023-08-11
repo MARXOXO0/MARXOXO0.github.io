@@ -1065,7 +1065,7 @@ body{
     margin: 0%;
     width: 80%;
     height: 45%;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 500;
     padding-right: 41%;
 }
@@ -1161,19 +1161,177 @@ body{
 
 
 
-/**section_skills-b1**/
+
+/**             section_skills-b1      **/
 .section_skills-b1{
     grid-area: skills;
     width: 100%;
     height: 98%;
     display: flex;
     margin: 0%;  
+    padding: 1%;
     flex-direction: column;
-
+    align-items: flex-start;
+    gap: 2%;
+    align-self: stretch;
     border-radius:var(--radio-global);
 
     background: var(--bg-secuandario-2);
 }
+.article__skills-b2{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+
+    gap: 0%;
+    height: 100%;
+}
+.section_skills-b1 h3{
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+    margin-right: 100%;
+
+    padding-right: 2%;
+    
+    font-size:1.2rem;
+    font-weight: 600;
+    ;
+    color: var(--color-h-secundarios-2);
+
+}
+
+
+.article__div-b3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90%;
+    gap: 2%;
+    
+
+}
+
+.dis__skills-item-b4{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/** HTML **/
+.div__spam-html-b5{
+    font-size: 1.1rem;
+    font-weight: 900;
+    line-height: 1rem;
+    color: var(--color-paragraph-fuente);
+}
+
+
+.div__skill_bar-font-b5,
+.div__skill_bar-font-b5::after{
+    position: relative;
+    width: 13rem;
+    height: 0.45rem;
+    left: 130px;
+    background-color: var(--bg-relleno-3);
+}
+
+.div__skill_bar-font-b5::after {
+    content: "";
+    position:absolute;
+    left: -25px;
+    background-color: var(--bg-button);
+    
+}
+
+/** CSS **/
+
+.div__spam-CSS-b5{
+    font-size: 1.1rem;
+    font-weight: 900;
+    margin-right: 6.3%;
+    line-height: 1rem;
+    color: var(--color-paragraph-fuente);
+}
+
+
+.div__skill_bar-CSS-b5,
+.div__skill_bar-CSS-b5::after{
+    position: relative;
+    width: 11.43rem;
+    height: 0.45rem;
+    left: 147px;
+    background-color: var(--bg-relleno-3);
+}
+
+.div__skill_bar-CSS-b5::after {
+    content: "";
+    position:absolute;
+    left: -50.2px;
+    background-color: var(--bg-button);
+   
+}
+
+/** JS **/
+
+.div__spam-JS-b5{
+    font-size: 1.1rem;
+    font-weight: 900;
+    margin-right: 7.8%;
+    line-height: 1rem;
+    color: var(--color-paragraph-fuente);
+}
+
+
+.div__skill_bar-JS-b5,
+.div__skill_bar-JS-b5::after{
+    position: relative;
+    width: 13rem;
+    height: 0.45rem;
+    left: 130px;
+    background-color: var(--bg-relleno-3);
+}
+
+.div__skill_bar-JS-b5::after {
+    content: "";
+    position:absolute;
+    left: -24.5px;
+    background-color: var(--bg-button);
+    
+
+}
+
+/** REACT**/
+.div__spam-react-b5{
+    font-size: 1.1rem;
+    font-weight: 900;
+    margin-right: 6%;
+    line-height: 1rem;
+    color: var(--color-paragraph-fuente);
+}
+
+
+.div__skill_bar-react-b5,
+.div__skill_bar-react-b5::after{
+    position: relative;
+    width: 11.5rem;
+    height: 0.45rem;
+    left: 130px;
+    background-color: var(--bg-relleno-3);
+}
+
+.div__skill_bar-react-b5::after {
+    content: "";
+    position:absolute;
+    left: -48.5px;
+    background-color: var(--bg-button);
+   
+}
+
+
 
 /**aside__proyectos-c1**/
 .aside__proyectos-c1{
@@ -1222,6 +1380,7 @@ body{
 .section__multiscroll-dd1::-webkit-scrollbar{
     width: 0.4rem;
     background: var(--bg-relleno-3);
+   
 }
 
 .section__multiscroll-dd1::-webkit-scrollbar-thumb{
